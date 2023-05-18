@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto' sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 2%;
+    margin-right: 2%;
+    background-image: url(bgi.jpg);
+    padding: 1%;
+    padding-right: 1%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* Инфо */
+
+.info {
+    display: flex;
+}
+.info h1 {
+    text-align: center;
+    margin-left: 50px;
+}
+.info p {
+    text-align: center;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.info ul {
+    margin-left: 100px;
+    font-size: 20px;
+}
+.avatarka {
+    width: 15%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+    /* Работа */
+.table {
+    display: block;
+}
+.table h2 {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 40px;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 30px;
+}
+table tr:hover td {
+    background: #eeefff;
+}
+.table th {
+    border-bottom: 1px dashed black;
+}
+
+
+
+
+
+    /* Соц Сети */
+
+.ahref {
+    display: block;
+    white-space: nowrap;
+}
+.ahref h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    border-top: 1px solid black;
+}
+
+.ahref li {
+    display: inline-block;
+    padding: 50px 12%;
+    font-size: 30px;
+}
+
+.ahref #inst {
+    color: rgb(230, 48, 148);
+    text-decoration: none;
+    border: 2px solid rgb(230, 48, 148);
+    padding: 30px;
+}
+.ahref #vk {
+    color: rgb(79, 79, 236);
+    text-decoration: none;
+    border: 2px solid rgb(79, 79, 236);
+    padding: 30px;
+}
+.ahref #tg {
+    color: rgb(8, 8, 133);
+    text-decoration: none;
+    border: 2px solid rgb(8, 8, 133);
+    padding: 30px;
+}
+a:active {
+    opacity: 0.7;
+}
